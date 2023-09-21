@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary py-3 ">
             <div className="container-fluid">
-                <Link to="/" className="navbar-brand">Ebodega</Link>
+                <Link to="/" style={{width : 12 + "rem"}} className="navbar-brand"><img className="w-100 h-100" src="https://i.imgur.com/XDsnifO.png" alt="ebodega" /></Link>
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
                     <li className="nav-item">
                         <NavLink to="/category/vino" className="nav-link">vinos</NavLink>
